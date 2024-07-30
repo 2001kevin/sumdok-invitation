@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Castoro:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: max-content;
+}
+
+body {
+  height: 100%;
+  background-image: url("./ornamen/bg\ full.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.background{
+    width: 100%;
+}
+
+.antic-didone-regular {
+  font-family: "Antic Didone", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.castoro-regular {
+  font-family: "Castoro", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.wobble-hor-top {
+	animation: wobble-hor-top 6s infinite both;
+}
+
+@keyframes wobble-hor-top {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(-6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(-2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(1.2deg);
+  }
+}
+
+.wobble-ver-left {
+	animation: wobble-ver-left 5s infinite reverse both;
+}
+
+@keyframes wobble-ver-left {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateY(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateY(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateY(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateY(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateY(-6px) rotate(-1.2deg);
+  }
+}
+
+.wobble-ver-right {
+	animation: wobble-ver-right 6s infinite both;
+}
+
+@keyframes wobble-ver-right {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateY(-30px) rotate(6deg);
+  }
+  30% {
+    transform: translateY(15px) rotate(-6deg);
+  }
+  45% {
+    transform: translateY(-15px) rotate(3.6deg);
+  }
+  60% {
+    transform: translateY(9px) rotate(-2.4deg);
+  }
+  75% {
+    transform: translateY(-6px) rotate(1.2deg);
+  }
+}
+
