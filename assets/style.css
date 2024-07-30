@@ -30,6 +30,12 @@ body {
   font-style: normal;
 }
 
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .castoro-regular {
   font-family: "Castoro", serif;
   font-weight: 100;
