@@ -9,7 +9,7 @@
     <title>Sumpah Dokter</title>
   </head>
   <body>
-    <div class="relative w-full h-[100vh] overflow-hidden">
+    <div class="relative w-full h-[100vh] overflow-hidden" id="display1" style="display: block;">
       <div class="absolute top-0 left-0 w-full">
         <img
           class="wobble-hor-top absolute -top-2 -left-4 w-[250px] h-[200px]"
@@ -25,7 +25,7 @@
       <div
         class="fixed fade-in-fwd w-full h-[85vh] flex items-center justify-center mb-10"
       >
-        <img src="./assets/ornamen/ornamen trans.webp" alt="" />
+        <img class="h-[60%] w-[70%]" src="./assets/ornamen/ornamen trans.webp" alt="" />
       </div>
       <div
         class="fixed fade-in-fwd w-full h-[85vh] flex items-center justify-center mb-10"
@@ -55,14 +55,14 @@
           </p>
         </div>
       </div>
-      <button
+      <button id="buka-undangan"
         class="absolute top-3/4 inset-x-0.5 bg-[#002d19] w-[160px] mx-auto p-3 rounded-lg text-white poppins-semibold"
       >
         Buka Undangan
       </button>
       <div class="w-full absolute bottom-0 left-0">
         <img
-          class="slide-top absolute -bottom-0 left-0 z-10"
+          class="slide-top absolute -bottom-0 h-[37vh] left-0 z-10"
           src="./assets/ornamen/ornamen samping 2.webp"
           alt=""
         />
@@ -72,7 +72,7 @@
           alt=""
         />
         <img
-          class="slide-top absolute bottom-0 right-0 z-10"
+          class="slide-top absolute bottom-0 right-0 h-[37vh] z-10"
           src="./assets/ornamen/ornamen samping 1.webp"
           alt=""
         />
@@ -83,5 +83,220 @@
         />
       </div>
     </div>
+
+    <!-- slide 2 -->
+    <div id="display2" style="display: none;">
+      <div class="relative w-full h-[100vh] overflow-hidden" >
+        <div class="absolute top-0 left-0 w-full">
+          <img
+            class="wobble-hor-top absolute -top-2 -left-4 "
+            src="./assets/ornamen/or flower kiri atas.webp"
+            alt=""
+          />
+          <img
+            class="wobble-hor-top absolute -top-2 -right-4"
+            src="./assets/ornamen/or flower kanan atas.webp"
+            alt=""
+          />
+        </div>
+        <div
+          class="relative fade-in-fwd w-full h-[85vh] flex items-center justify-center mb-10"
+        >
+          <!-- <img class="h-[50%] w-[80%]" src="./assets/ornamen/bg slide 4.webp" alt="" /> -->
+          <!-- <div
+            class="absolute w-full h-[85vh] flex flex-col items-center justify-center mb-10"
+          >
+              <img class="w-[40vh] rounded-lg" src="./assets/ornamen/barber.jpg" alt="">
+              <p class="relative poppins-semibold break-words text-center">
+                Tanpa mengurangi rasa hormat, kami bermaksud mengundang Bapak/Ibu/Saudara/i pada acara pengambilan janji / sumpah Dokter
+              </p>
+          </div> -->
+          <div
+            class="relative flex items-center justify-center bg-cover bg-center mx-[5vh] items-center rounded-lg h-[50vh] w-[50vh]" style="background-image: url('./assets/ornamen/bg-baru.png')"
+          >
+              <img class="absolute w-[40vh] rounded-lg -top-9" src="./assets/ornamen/barber.jpg" alt="">
+              <p class="absolute poppins-semibold break-words text-center bottom-14 mb-4">
+                Tanpa mengurangi rasa hormat, kami bermaksud mengundang Bapak/Ibu/Saudara/i pada acara pengambilan janji / sumpah Dokter
+              </p>
+              <img class="absolute bottom-4 right-4" src="./assets/ornamen/ornamen baru kanan bawah.png" alt="">
+          </div>
+        </div>
+        <div class="w-full absolute bottom-0 left-0">
+          <img
+            class="slide-top absolute -bottom-0 h-[37vh] left-0 z-10"
+            src="./assets/ornamen/ornamen samping 2.webp"
+            alt=""
+          />
+          <img
+            class="wobble-ver-left w-[250px] h-[230px] absolute -bottom-10 -left-3 z-20"
+            src="./assets/ornamen/ornamen kiri bawah2.webp"
+            alt=""
+          />
+          <img
+            class="slide-top absolute bottom-0 right-0 h-[37vh] z-10"
+            src="./assets/ornamen/ornamen samping 1.webp"
+            alt=""
+          />
+          <img
+            class="wobble-ver-right w-[250px] h-[230px] absolute -bottom-10 -right-3 z-20"
+            src="./assets/ornamen/ornamen kanan bawah.webp"
+            alt=""
+          />
+        </div>
+      </div>
+  
+      <!-- slide 3 -->
+      <div class="relative w-full h-[100vh] overflow-hidden">
+        <div class="absolute top-0 left-0 w-full">
+          <img
+            class="wobble-hor-top absolute -top-2 -left-4 "
+            src="./assets/ornamen/or flower kiri atas.webp"
+            alt=""
+          />
+          <img
+            class="wobble-hor-top absolute -top-2 -right-4"
+            src="./assets/ornamen/or flower kanan atas.webp"
+            alt=""
+          />
+        </div>
+        <div
+          class="relative fade-in-fwd w-full h-[85vh] flex items-center justify-center mb-10"
+        >
+          <!-- <img class="h-[50%] w-[80%]" src="./assets/ornamen/bg slide 4.webp" alt="" /> -->
+          <!-- <div
+            class="absolute w-full h-[85vh] flex flex-col items-center justify-center mb-10"
+          >
+              <img class="w-[40vh] rounded-lg" src="./assets/ornamen/barber.jpg" alt="">
+              <p class="relative poppins-semibold break-words text-center">
+                Tanpa mengurangi rasa hormat, kami bermaksud mengundang Bapak/Ibu/Saudara/i pada acara pengambilan janji / sumpah Dokter
+              </p>
+          </div> -->
+          <div
+            class="relative flex flex-col items-center justify-center bg-cover bg-center mx-[5vh] items-center rounded-lg h-[50vh] w-[50vh]" style="background-image: url('./assets/ornamen/bg-baru.png')"
+          >   
+              <img class="absolute top-4 left-4" src="./assets/ornamen/ornamen baru kiri atas.webp" alt="">
+              <h1
+                  class="cinzel-decorative-bold text-[24px] text-center text-black mb-5"
+                >
+                  Hippocratic Oath <br />
+                  2024
+              </h1>
+              <p class="antic-didone-regular text-[18px] text-center text-black font-semibold mb-2 break-words">
+                Pengambilan Janji/Sumpah Dokter
+              </p>
+              <div class="flex items-center antic-didone-regular font-extrabold text-[24px] gap-x-5 my-[7px]">
+                <p>Selasa</p>
+                <div class="text-center border-x-2 px-2 border-black">
+                  <p>Agustus</p>
+                  <p>6</p>
+                  <p>2024</p>
+                </div>
+                <p>09.00 wib</p>
+              </div>
+              <p class="antic-didone-regular text-[18px] text-center text-black font-semibold mt-5">
+                AUDITORIUM PROF. DR. P. A. SURJADI M.A UNIVERSITAS KRISTEN MARANATHA
+              </p>
+              <img class="absolute bottom-4 right-4" src="./assets/ornamen/ornamen baru kanan bawah.png" alt="">
+          </div>
+        </div>
+        <div class="w-full absolute bottom-0 left-0">
+          <img
+            class="slide-top absolute -bottom-0 h-[37vh] left-0 z-10"
+            src="./assets/ornamen/ornamen samping 2.webp"
+            alt=""
+          />
+          <img
+            class="wobble-ver-left w-[250px] h-[230px] absolute -bottom-10 -left-3 z-20"
+            src="./assets/ornamen/ornamen kiri bawah2.webp"
+            alt=""
+          />
+          <img
+            class="slide-top absolute bottom-0 right-0 h-[37vh] z-10"
+            src="./assets/ornamen/ornamen samping 1.webp"
+            alt=""
+          />
+          <img
+            class="wobble-ver-right w-[250px] h-[230px] absolute -bottom-10 -right-3 z-20"
+            src="./assets/ornamen/ornamen kanan bawah.webp"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- slide 4 -->
+      <div class="relative w-full h-[100vh] overflow-hidden">
+        <div class="absolute top-0 left-0 w-full">
+          <img
+            class="wobble-hor-top absolute -top-2 -left-4 "
+            src="./assets/ornamen/or flower kiri atas.webp"
+            alt=""
+          />
+          <img
+            class="wobble-hor-top absolute -top-2 -right-4"
+            src="./assets/ornamen/or flower kanan atas.webp"
+            alt=""
+          />
+        </div>
+        <div
+          class="relative fade-in-fwd w-full h-[85vh] flex items-center justify-center mb-10"
+        >
+          <!-- <img class="h-[50%] w-[80%]" src="./assets/ornamen/bg slide 4.webp" alt="" /> -->
+          <!-- <div
+            class="absolute w-full h-[85vh] flex flex-col items-center justify-center mb-10"
+          >
+              <img class="w-[40vh] rounded-lg" src="./assets/ornamen/barber.jpg" alt="">
+              <p class="relative poppins-semibold break-words text-center">
+                Tanpa mengurangi rasa hormat, kami bermaksud mengundang Bapak/Ibu/Saudara/i pada acara pengambilan janji / sumpah Dokter
+              </p>
+          </div> -->
+          <div
+            class="relative flex flex-col items-center justify-center bg-cover bg-center mx-[5vh] items-center rounded-lg h-[50vh] w-[50vh]" style="background-image: url('./assets/ornamen/bg-baru.png')"
+          >   
+              <img class="absolute top-4 left-4" src="./assets/ornamen/ornamen baru kiri atas.webp" alt="">
+              <h1
+                  class="castoro-regular text-[20px] text-center text-black mb-5"
+                >
+                  AUDITORIUM <br> PROF. DR. P. A. SURJADI M.A
+                </h1>
+                <iframe class="rounded-lg w-[40vh] h-[25vh]" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3961.035090291849!2d107.57811967499616!3d-6.8864003931125755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNTMnMTEuMCJTIDEwN8KwMzQnNTAuNSJF!5e0!3m2!1sen!2sid!4v1722424829287!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <a class=" bg-[#002d19] py-[10px] px-[15px] text-white rounded-xl mt-4" href="https://maps.app.goo.gl/mSSa5XFB3Gp4ER1G7" target="_blank">Buka Map</a>
+              <img class="absolute bottom-4 right-4 " src="./assets/ornamen/ornamen baru kanan bawah.png" alt="">
+          </div>
+        </div>
+        <div class="w-full absolute bottom-0 left-0">
+          <img
+            class="slide-top absolute -bottom-0 h-[37vh] left-0 z-10"
+            src="./assets/ornamen/ornamen samping 2.webp"
+            alt=""
+          />
+          <img
+            class="wobble-ver-left w-[250px] h-[230px] absolute -bottom-10 -left-3 z-20"
+            src="./assets/ornamen/ornamen kiri bawah2.webp"
+            alt=""
+          />
+          <img
+            class="slide-top absolute bottom-0 right-0 h-[37vh] z-10"
+            src="./assets/ornamen/ornamen samping 1.webp"
+            alt=""
+          />
+          <img
+            class="wobble-ver-right w-[250px] h-[230px] absolute -bottom-10 -right-3 z-20"
+            src="./assets/ornamen/ornamen kanan bawah.webp"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+       $(document).ready(function(){
+            $('#buka-undangan').click(function(){
+              $('#display1').css('display', 'none');
+              $('#display2').css('display', 'block');
+            });
+        });
+    </script>
   </body>
 </html>
