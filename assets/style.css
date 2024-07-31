@@ -14,6 +14,15 @@
   background-position: center;
 }
 
+.display1 {
+  height: 100vh;
+  background-image: url("./ornamen/bg\ full\ \(1\)\ \(1\).webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 .display2 {
   height: 100vh;
   background-image: url("./ornamen/bg-header.webp");
