@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
     <title>Sumpah Dokter</title>
   </head>
   <body>
@@ -456,135 +465,1203 @@
           />
         </div>
         <div
-          class="relative fade-in-fwd w-full h-[85vh] flex flex-col items-center justify-center mb-10"
+          class="relative  w-full h-[85vh] flex flex-col items-center justify-center mb-10"
         >
-          <h1 class="castoro-regular text-2xl text-center text-black mb-5">
+          <h1 class="castoro-regular text-2xl text-center text-black mb-5 mt-7">
             Our<br />
             New Doctor
           </h1>
-          <div class="p-9 relative bg-[#F4F1EA] font-2xl mx-3 rounded-xl">
-             <img
-              class="absolute top-4 left-4"
-              src="./assets/ornamen/ornamen baru kiri atas.webp"
-              alt=""
-            />
-            <img
-              class="absolute bottom-4 right-4"
-              src="./assets/ornamen/ornamen baru kanan bawah.png"
-              alt=""
-            />
-            <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
-              <div class="-m-1 flex flex-wrap md:-m-2">
-                <div class="flex w-1/3 flex-wrap">
-                  <div class="w-full p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center"
-                      src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                    />
-                  </div>
-                </div>
-                <div class="flex w-1/3 flex-wrap">
-                  <div class="w-full p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center"
-                      src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
-                    />
-                  </div>
-                </div>
-                <div class="flex w-1/3 flex-wrap">
-                  <div class="w-full p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center"
-                      src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
-                    />
-                  </div>
-                </div>
-                <div class="flex w-1/3 flex-wrap">
-                  <div class="w-full p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center"
-                      src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
-                    />
-                  </div>
-                </div>
-                <div class="flex w-1/3 flex-wrap">
-                  <div class="w-full p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center"
-                      src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp"
-                    />
-                  </div>
-                </div>
-                <div class="flex w-1/3 flex-wrap">
-                  <div class="w-full p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center"
-                      src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
-                    />
-                  </div>
-                </div>
-                <div class="flex w-1/3 flex-wrap">
-                  <div class="w-full p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center"
-                      src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
-                    />
-                  </div>
-                </div>
-                <div class="flex w-1/3 flex-wrap">
-                  <div class="w-full p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center"
-                      src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp"
-                    />
-                  </div>
-                </div>
-                <div class="flex w-1/3 flex-wrap">
-                  <div class="w-full p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center"
-                      src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
-                    />
-                  </div>
-                </div>
-                <div class="flex w-1/3 flex-wrap">
-                  <div class="w-full p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center"
-                      src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
-                    />
-                  </div>
-                </div>
-                <div class="flex w-1/3 flex-wrap">
-                  <div class="w-full p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center"
-                      src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp"
-                    />
-                  </div>
-                </div>
-                <div class="flex w-1/3 flex-wrap">
-                  <div class="w-full p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center"
-                      src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
-                    />
-                  </div>
-                </div>
+          <div class="swiper mySwiper mb-3 mx-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/IMG_2359.JPG?updatedAt=1722512790557"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/IMG_2359.JPG?updatedAt=1722512790557"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/INTAN%20post.jpg?updatedAt=1722506864423"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/INTAN%20post.jpg?updatedAt=1722506864423"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/FAJRIATUN%20post.jpg?updatedAt=1722506865527"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/FAJRIATUN%20post.jpg?updatedAt=1722506865527"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/FELLICIA%20%20post.jpg?updatedAt=1722506866565"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/FELLICIA%20%20post.jpg?updatedAt=1722506866565"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/FAJAR%20post%20.jpg?updatedAt=1722506867434"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/FAJAR%20post%20.jpg?updatedAt=1722506867434"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/MORIS%20post.jpg?updatedAt=1722506867465"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/MORIS%20post.jpg?updatedAt=1722506867465"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/NADYA%20post.jpg?updatedAt=1722506867557"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/NADYA%20post.jpg?updatedAt=1722506867557"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/MICHELLA%20post.jpg?updatedAt=1722506868124"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/MICHELLA%20post.jpg?updatedAt=1722506868124"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/EVELYN%20post.jpg?updatedAt=1722506868159"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/EVELYN%20post.jpg?updatedAt=1722506868159"
+                    alt=""
+                  />
+                </a>
               </div>
             </div>
+            <div class="swiper-button-next" id="next1"></div>
+            <div class="swiper-button-prev" id="prev1"></div>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/NAURA%20post.jpg?updatedAt=1722506868195"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/NAURA%20post.jpg?updatedAt=1722506868195"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/ORIANNE%20%20post.jpg?updatedAt=1722506871114"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/ORIANNE%20%20post.jpg?updatedAt=1722506871114"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/RAY%20post.jpg?updatedAt=1722506871157"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/RAY%20post.jpg?updatedAt=1722506871157"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/RICHARD%20%20post.jpg?updatedAt=1722506877334"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/RICHARD%20%20post.jpg?updatedAt=1722506877334"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/RIRIN%20%20post.jpg?updatedAt=1722506883693"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/RIRIN%20%20post.jpg?updatedAt=1722506883693"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/RICKSON%20post.jpg?updatedAt=1722506883671"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/RICKSON%20post.jpg?updatedAt=1722506883671"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/SIPRA%20post.jpg?updatedAt=1722506883704"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/SIPRA%20post.jpg?updatedAt=1722506883704"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/SYIFA%20post.jpg?updatedAt=1722506883886"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/SYIFA%20post.jpg?updatedAt=1722506883886"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/SUCI%20post.jpg?updatedAt=1722506883832"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/SUCI%20post.jpg?updatedAt=1722506883832"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-next" id="next1"></div>
+            <div class="swiper-button-prev" id="prev1"></div>
+          </div>
+        </div>
+        <div class="w-full absolute bottom-0 left-0">
+          <img
+            class="wobble-ver-left w-[250px] h-[230px] absolute -bottom-10 -left-3 z-20"
+            src="./assets/ornamen/ornamen kiri bawah2.webp"
+            alt=""
+          />
+          <img
+            class="wobble-ver-right w-[250px] h-[230px] absolute -bottom-10 -right-3 z-20"
+            src="./assets/ornamen/ornamen kanan bawah.webp"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- slide 6 -->
+      <div class="relative display1 w-full h-[100vh] overflow-hidden">
+        <div class="absolute top-0 left-0 w-full">
+          <img
+            class="wobble-hor-top absolute w-[210px] h-[210px] -top-2 -left-11"
+            src="./assets/ornamen/daun kiri atas 1.png"
+            alt=""
+          />
+          <img
+            class="wobble-hor-top absolute w-[210px] h-[210px] -top-2 -right-11"
+            src="./assets/ornamen/daun kiri atas 2.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="relative fade-in-fwd w-full h-[85vh] flex flex-col items-center justify-center mb-10"
+        >
+          <h1 class="castoro-regular text-2xl text-center text-black mb-5 mt-7">
+            Our<br />
+            New Doctor
+          </h1>
+          <div class="swiper mySwiper mb-3 mx-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/TRIA%20post.jpg?updatedAt=1722506884199"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/TRIA%20post.jpg?updatedAt=1722506884199"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/VARDA%20%20post.jpg?updatedAt=1722506884354"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/VARDA%20%20post.jpg?updatedAt=1722506884354"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/VERONICA%20post.jpg?updatedAt=1722506888644"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/VERONICA%20post.jpg?updatedAt=1722506888644"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/YOHANA%20post.jpg?updatedAt=1722506888702"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/YOHANA%20post.jpg?updatedAt=1722506888702"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/VICTORIA%20post.jpg?updatedAt=1722506888785"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/VICTORIA%20post.jpg?updatedAt=1722506888785"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/YUNAN%20post.jpg?updatedAt=1722506890050"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/YUNAN%20post.jpg?updatedAt=1722506890050"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/TRIA%20post.jpg?updatedAt=1722506884199"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/TRIA%20post.jpg?updatedAt=1722506884199"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/TRIA%20post.jpg?updatedAt=1722506884199"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/TRIA%20post.jpg?updatedAt=1722506884199"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/TRIA%20post.jpg?updatedAt=1722506884199"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/TRIA%20post.jpg?updatedAt=1722506884199"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-next" id="next1"></div>
+            <div class="swiper-button-prev" id="prev1"></div>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/HENRY%20post.jpg?updatedAt=1722509129636"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/HENRY%20post.jpg?updatedAt=1722509129636"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/IRMA%20post.jpg?updatedAt=1722509129847"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/IRMA%20post.jpg?updatedAt=1722509129847"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/HERSAN%20post.jpg?updatedAt=1722509129985"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/HERSAN%20post.jpg?updatedAt=1722509129985"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/IQLIMA%20post.jpg?updatedAt=1722509130387"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/IQLIMA%20post.jpg?updatedAt=1722509130387"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/CHANDRA%20post.jpg?updatedAt=1722509130450"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/CHANDRA%20post.jpg?updatedAt=1722509130450"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/GINA%20post.jpg?updatedAt=1722509130499"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/GINA%20post.jpg?updatedAt=1722509130499"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/GRACEILA%20post.jpg?updatedAt=1722509130622"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/GRACEILA%20post.jpg?updatedAt=1722509130622"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/HIZKIA%20post.jpg?updatedAt=1722509130685"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/HIZKIA%20post.jpg?updatedAt=1722509130685"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-next" id="next1"></div>
+            <div class="swiper-button-prev" id="prev1"></div>
+          </div>
+        </div>
+        <div class="w-full absolute bottom-0 left-0">
+          <img
+            class="wobble-ver-left w-[250px] h-[230px] absolute -bottom-10 -left-3 z-20"
+            src="./assets/ornamen/ornamen kiri bawah2.webp"
+            alt=""
+          />
+          <img
+            class="wobble-ver-right w-[250px] h-[230px] absolute -bottom-10 -right-3 z-20"
+            src="./assets/ornamen/ornamen kanan bawah.webp"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- slide 7 -->
+      <div class="relative display1 w-full h-[100vh] overflow-hidden">
+        <div class="absolute top-0 left-0 w-full">
+          <img
+            class="wobble-hor-top absolute w-[210px] h-[210px] -top-2 -left-11"
+            src="./assets/ornamen/daun kiri atas 1.png"
+            alt=""
+          />
+          <img
+            class="wobble-hor-top absolute w-[210px] h-[210px] -top-2 -right-11"
+            src="./assets/ornamen/daun kiri atas 2.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="relative fade-in-fwd w-full h-[85vh] flex flex-col items-center justify-center mb-10"
+        >
+          <h1 class="castoro-regular text-2xl text-center text-black mb-5 mt-7">
+            Our<br />
+            New Doctor
+          </h1>
+          <div class="swiper mySwiper mb-3 mx-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/INGGRIED%20post.jpg?updatedAt=1722509130717"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/INGGRIED%20post.jpg?updatedAt=1722509130717"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/FADHILLA%20post.jpg?updatedAt=1722509130757"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/FADHILLA%20post.jpg?updatedAt=1722509130757"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/JEAN%20post.jpg?updatedAt=1722509140873"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/JEAN%20post.jpg?updatedAt=1722509140873"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/KEANE%20post.jpg?updatedAt=1722509142627"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/KEANE%20post.jpg?updatedAt=1722509142627"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/KEISHA%20post.jpg?updatedAt=1722509145185"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/KEISHA%20post.jpg?updatedAt=1722509145185"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/JOSH%20post.jpg?updatedAt=1722509145703"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/JOSH%20post.jpg?updatedAt=1722509145703"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/MAURENE%20post.jpg?updatedAt=1722509145709"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/MAURENE%20post.jpg?updatedAt=1722509145709"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/KHEREN%20post.jpg?updatedAt=1722509145841"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/KHEREN%20post.jpg?updatedAt=1722509145841"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/PUTRI%20post.jpg?updatedAt=1722509146524"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/PUTRI%20post.jpg?updatedAt=1722509146524"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-next" id="next1"></div>
+            <div class="swiper-button-prev" id="prev1"></div>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/MAX%20post.jpg?updatedAt=1722509146475"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/MAX%20post.jpg?updatedAt=1722509146475"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/MIRIAM%20post.jpg?updatedAt=1722509146590"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/MIRIAM%20post.jpg?updatedAt=1722509146590"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/LIA%20post.jpg?updatedAt=1722509146620"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/LIA%20post.jpg?updatedAt=1722509146620"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/REZA%20post.jpg?updatedAt=1722509147356"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/REZA%20post.jpg?updatedAt=1722509147356"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/RODRIGO%20post.jpg?updatedAt=1722509147630"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/RODRIGO%20post.jpg?updatedAt=1722509147630"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/YONATHAN%20post.jpg?updatedAt=1722509150138"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/YONATHAN%20post.jpg?updatedAt=1722509150138"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/VANIA%20post.jpg?updatedAt=1722509150734"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/VANIA%20post.jpg?updatedAt=1722509150734"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-next" id="next1"></div>
+            <div class="swiper-button-prev" id="prev1"></div>
+          </div>
+        </div>
+        <div class="w-full absolute bottom-0 left-0">
+          <img
+            class="wobble-ver-left w-[250px] h-[230px] absolute -bottom-10 -left-3 z-20"
+            src="./assets/ornamen/ornamen kiri bawah2.webp"
+            alt=""
+          />
+          <img
+            class="wobble-ver-right w-[250px] h-[230px] absolute -bottom-10 -right-3 z-20"
+            src="./assets/ornamen/ornamen kanan bawah.webp"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- slide 8 -->
+      <div class="relative display1 w-full h-[100vh] overflow-hidden">
+        <div class="absolute top-0 left-0 w-full">
+          <img
+            class="wobble-hor-top absolute w-[210px] h-[210px] -top-2 -left-11"
+            src="./assets/ornamen/daun kiri atas 1.png"
+            alt=""
+          />
+          <img
+            class="wobble-hor-top absolute w-[210px] h-[210px] -top-2 -right-11"
+            src="./assets/ornamen/daun kiri atas 2.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="relative fade-in-fwd w-full h-[85vh] flex flex-col items-center justify-center mb-10"
+        >
+          <h1 class="castoro-regular text-2xl text-center text-black mb-5 mt-7">
+            Our<br />
+            New Doctor
+          </h1>
+          <div class="swiper mySwiper mb-3 mx-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/VELLA%20post.jpg?updatedAt=1722509154747"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi2/VELLA%20post.jpg?updatedAt=1722509154747"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/THESYALINA%20post%20(2)%20(1).jpg?updatedAt=1722512239800"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/THESYALINA%20post%20(2)%20(1).jpg?updatedAt=1722512239800"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/SHELLY%20post.jpg?updatedAt=1722511126570"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/SHELLY%20post.jpg?updatedAt=1722511126570"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/RICKY%20post.jpg?updatedAt=1722511125799"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/RICKY%20post.jpg?updatedAt=1722511125799"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/RAFDHI%20post.jpg?updatedAt=1722511124822"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/RAFDHI%20post.jpg?updatedAt=1722511124822"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/LALA%20post.jpg?updatedAt=1722511124789"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/LALA%20post.jpg?updatedAt=1722511124789"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/HALDVIN%20post.jpg?updatedAt=1722511123525"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/HALDVIN%20post.jpg?updatedAt=1722511123525"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/CATHERINE%20post.jpg?updatedAt=1722511123187"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/CATHERINE%20post.jpg?updatedAt=1722511123187"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/EQEN%20post.jpg?updatedAt=1722511123130"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/EQEN%20post.jpg?updatedAt=1722511123130"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-next" id="next1"></div>
+            <div class="swiper-button-prev" id="prev1"></div>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/CHRISTIN%20post.jpg?updatedAt=1722511123169"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/CHRISTIN%20post.jpg?updatedAt=1722511123169"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/DAVID%20post.jpg?updatedAt=1722511123036"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/DAVID%20post.jpg?updatedAt=1722511123036"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/DEA%20post.jpg?updatedAt=1722511122994"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/DEA%20post.jpg?updatedAt=1722511122994"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/CINTYA%20post.jpg?updatedAt=1722511122814"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/CINTYA%20post.jpg?updatedAt=1722511122814"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/CINDY%20post.jpg?updatedAt=1722511120738"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/CINDY%20post.jpg?updatedAt=1722511120738"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/AYREN%20post.jpg?updatedAt=1722511119310"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/AYREN%20post.jpg?updatedAt=1722511119310"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/AVICENNA%20post.jpg?updatedAt=1722511118763"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/AVICENNA%20post.jpg?updatedAt=1722511118763"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-next" id="next1"></div>
+            <div class="swiper-button-prev" id="prev1"></div>
+          </div>
+        </div>
+        <div class="w-full absolute bottom-0 left-0">
+          <img
+            class="wobble-ver-left w-[250px] h-[230px] absolute -bottom-10 -left-3 z-20"
+            src="./assets/ornamen/ornamen kiri bawah2.webp"
+            alt=""
+          />
+          <img
+            class="wobble-ver-right w-[250px] h-[230px] absolute -bottom-10 -right-3 z-20"
+            src="./assets/ornamen/ornamen kanan bawah.webp"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- slide 9 -->
+      <div class="relative display1 w-full h-[100vh] overflow-hidden">
+        <div class="absolute top-0 left-0 w-full">
+          <img
+            class="wobble-hor-top absolute w-[210px] h-[210px] -top-2 -left-11"
+            src="./assets/ornamen/daun kiri atas 1.png"
+            alt=""
+          />
+          <img
+            class="wobble-hor-top absolute w-[210px] h-[210px] -top-2 -right-11"
+            src="./assets/ornamen/daun kiri atas 2.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="relative fade-in-fwd w-full h-[85vh] flex flex-col items-center justify-center mb-10"
+        >
+          <h1 class="castoro-regular text-2xl text-center text-black mb-5 mt-7">
+            Our<br />
+            New Doctor
+          </h1>
+          <div class="swiper mySwiper mb-3 mx-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ARUNDRA%20post.jpg?updatedAt=1722511115567"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ARUNDRA%20post.jpg?updatedAt=1722511115567"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ALIFIA%20post.jpg?updatedAt=1722511115470"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ALIFIA%20post.jpg?updatedAt=1722511115470"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ARIYANI%20post.jpg?updatedAt=1722511115394"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ARIYANI%20post.jpg?updatedAt=1722511115394"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ANGEL%20post.jpg?updatedAt=1722511115377"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ANGEL%20post.jpg?updatedAt=1722511115377"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ASTRID%20post.jpg?updatedAt=1722511115337"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ASTRID%20post.jpg?updatedAt=1722511115337"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-next" id="next1"></div>
+            <div class="swiper-button-prev" id="prev1"></div>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ALDI%20post.jpg?updatedAt=1722511115358"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ALDI%20post.jpg?updatedAt=1722511115358"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ANASTHASYA%20post.jpg?updatedAt=1722511115304"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ANASTHASYA%20post.jpg?updatedAt=1722511115304"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ASHIIL%20post.jpg?updatedAt=1722511115318"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/ASHIIL%20post.jpg?updatedAt=1722511115318"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/AGNES%20post.jpg?updatedAt=1722511114741"
+                  data-fancybox
+                >
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/sesi%201/AKHRIJNI%20post.jpg?updatedAt=1722511114760"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-next" id="next1"></div>
+            <div class="swiper-button-prev" id="prev1"></div>
           </div>
         </div>
         <div class="w-full absolute bottom-0 left-0">
@@ -601,6 +1678,7 @@
         </div>
       </div>
     </div>
+
     <script>
       const display1 = document.getElementById("display1");
       const display2 = document.getElementById("display2");
@@ -612,6 +1690,87 @@
         display1.style.display = "none";
         display2.style.display = "block";
         audio.play();
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+        spaceBetween: 30,
+        slidesPerView: 3,
+        // If we need pagination
+        // pagination: {
+        //   el: ".swiper-pagination",
+        // },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints: {
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          468: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+        },
+      });
+
+      const swiper2 = new Swiper(".mySwiper2", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+        spaceBetween: 30,
+        slidesPerView: 2,
+        // If we need pagination
+        // pagination: {
+        //   el: ".swiper-pagination",
+        // },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints: {
+          320: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+        },
+      });
+    </script>
+    <script>
+      Fancybox.bind("[data-fancybox]", {
+        // Your custom options
       });
     </script>
   </body>
