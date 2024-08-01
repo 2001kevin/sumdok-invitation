@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/style.css" />
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
@@ -134,19 +135,20 @@
           </div> -->
           <div
             class="relative flex items-center justify-center px-5 bg-cover bg-center mx-[5vh] items-center rounded-lg h-[50vh] w-[50vh]"
-            style="background-image: url('./assets/ornamen/bg-baru.png')"
-          >
-            <img
-              class="absolute w-[85%] rounded-lg -top-9"
-              src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/penutup%20fix%20(1)%20(1).jpg?updatedAt=1722517766538"
-              alt=""
-            />
-            <p
-              class="absolute text-[14px] poppins-semibold break-words text-center bottom-14 mb-4"
-            >
-              Tanpa mengurangi rasa hormat, kami bermaksud mengundang
-              Bapak/Ibu/Saudara/i pada acara pengambilan janji / sumpah Dokter
-            </p>
+            style="background-image: url('./assets/ornamen/bg-baru.png')">
+            <div class="absolute flex flex-col items-center justify-center -top-10">
+              <img
+                class="w-[87%] h-[55%] rounded-lg -top-9"
+                src="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/penutup%20fix%20(1)%20(1).jpg?updatedAt=1722517766538"
+                alt=""
+              />
+              <p
+                class="text-[18px] px-7 poppins-semibold break-words text-center mt-7"
+              >
+                Tanpa mengurangi rasa hormat, kami bermaksud mengundang
+                Bapak/Ibu/Saudara/i pada acara pengambilan janji / sumpah Dokter
+              </p>
+            </div>
             <img
               class="absolute bottom-4 right-4"
               src="./assets/ornamen/ornamen baru kanan bawah.png"
@@ -206,7 +208,7 @@
           </div> -->
           <div
             class="relative slide-in-blurred-bottom flex flex-col items-center justify-center bg-cover bg-center mx-[5vh] items-center rounded-lg h-[50vh] w-[50vh]"
-            style="background-image: url('./assets/ornamen/bg-baru.png')"
+            style="background-image: url('./assets/ornamen/bg-baru.png')" 
           >
             <img
               class="absolute top-4 left-4"
@@ -214,7 +216,7 @@
               alt=""
             />
             <h1
-              class="cinzel-decorative-bold text-[20px] text-center text-black mb-5"
+              class="cinzel-decorative-bold text-[20px] text-center text-black mb-5" data-aos="zoom-in"
             >
               Hippocratic Oath <br />
               2024
@@ -471,8 +473,8 @@
             Our<br />
             New Doctors
           </h1>
-          <div class="swiper mySwiper mb-3 mx-3">
-            <div class="swiper-wrapper">
+          <div class="swiper mySwiper mb-3 mx-3" >
+            <div class="swiper-wrapper" >
               <div class="swiper-slide">
                 <a
                   href="https://ik.imagekit.io/u1ds9zj1i/Sumdok%20resize/size3/IMG_2359.JPG?updatedAt=1722512790557"
@@ -1749,6 +1751,7 @@
         audio.play();
       });
     </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper(".mySwiper", {
@@ -1829,6 +1832,10 @@
       Fancybox.bind("[data-fancybox]", {
         // Your custom options
       });
+    </script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
